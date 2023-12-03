@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "start": "ts-node ./src/possible-games.ts",
+    "start": "ts-node ./src/required-cubes.ts",
     "test": "npx jest"
   },
   "devDependencies": {

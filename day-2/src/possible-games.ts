@@ -1,4 +1,4 @@
-import { Cubes, readGamesFile } from "./read-games-file"
+import { Cubes, readGamesFile } from './read-games-file'
 
 export function possibleGames(cubes: Cubes, gamesFilePath: string): number {
 	const games = readGamesFile(gamesFilePath)
