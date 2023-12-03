@@ -10,7 +10,6 @@ def gear_ratios(input_path):
 
     for number in all_numbers:
         if has_adjacent_symbol(number, lines):
-            print(number['number'])
             sum_of_numbers += int(number['number'])
 
     return sum_of_numbers
